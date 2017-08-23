@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+.centered{
+    margin: auto;
+    text-align: center;
+}
+
 @keyframes fade {
     from {
         opacity: 0
@@ -24,7 +29,7 @@ body {
 }
 
 .mainbtn {
-    box-shadow: inset 0 0px 0px 1px #607D8B;
+    box-shadow: 0 1px 3px 0px #607D8B;
     transition: all .5s;
     background-color: white;
     text-shadow: 0 0 black;
@@ -37,10 +42,38 @@ body {
 }
 
 .mainbtn:hover {
-    box-shadow: inset 0px 0px 20px 4px #2196f3;
-    border-radius: 10px;
+    box-shadow: 0 0px 3px 0px #607D8B;
+
 }
 
 .mainbtn:active {
-    box-shadow: inset 0px 0px 20px 10px #2196f3;
+    box-shadow: 0 0px 6px 0px #607D8B;
+}
+
+.separatebutequal {
+    margin: auto;
+    width: 40%;
+    background-color: rgba(96, 125, 139, 0.1);
+    padding: 2px 0 2px 0;
+    animation: separatebutequalxd .5s;
+    animation-timing-function: ease-in-out;
+}
+    
+@keyframes separatebutequalxd {
+    from {
+        opacity: 0;
+        transform: scale(0, 1);
+        }
+    }
+    
+.mainBody{
+    animation: mainBody .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes mainBody{
+    from{
+        opacity: 0;
+        transform: translate(0, 10px);
+    }
 }
