@@ -52,7 +52,6 @@ function createNav() {
             '<button type="button" id="gamesdrop" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>'+
             '<div class="dropdown-menu">'+
                 '<a class="dropdown-item" href="game-tlodb.html">The Legend of Diamondback</a>'+
-                '<a class="dropdown-item" href="game-tlodbonline.html">TLoDb Online</a>'+
             '</div>' +
         '</div>'
 }
