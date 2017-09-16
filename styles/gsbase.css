@@ -1,0 +1,86 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
+body {
+}
+
+.slideshow_img {
+    margin: auto;
+    text-align: center;
+    transition: all ease-in-out 0.5s;
+}
+.slideshow_container {
+    margin: auto;
+    text-align: center;
+}
+
+.centered{
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.mainbtn {
+    box-shadow: 0 1px 3px 0px #607D8B;
+    transition: all .5s;
+    text-shadow: 0 0 black;
+    text-decoration: none;
+    border: 2px none #9E9E9E;
+    border-radius: 0px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.mainbtn:hover {
+    box-shadow: 0 0px 3px 0px #607D8B;
+
+}
+
+.mainbtn:active {
+    box-shadow: 0 0px 6px 0px #607D8B;
+}
+
+
+.separatebutequal {
+    margin: auto;
+    width: 40%;
+    background-color: rgba(96, 125, 139, 0.1);
+    padding: 2px 0 2px 0;
+    animation: separatebutequalxd .5s;
+    animation-timing-function: ease-in-out;
+}
+    
+@keyframes separatebutequalxd {
+    from {
+        opacity: 0;
+        transform: scale(0, 1);
+        }
+    }
+    
+.mainBody{
+    animation: mainBody .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes mainBody{
+    from{
+        opacity: 0;
+        transform: translate(0, 10px);
+    }
+}
+
+.game-info-item {
+    border: 1px solid black;
+    padding: 5px;
+}
+.game-info-table {
+    box-shadow: 0 1px 3px 0px #607D8B;
+}
