@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\games",
     "\\js",
     "\\styles",
-    "\\styles\\bs"
+    "\\styles\\bs\\css"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\release-tlodb.html",
   "PreviewInSolutionExplorer": false
 }
