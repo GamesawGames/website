@@ -3,6 +3,72 @@
 body {
 }
 
+.navbar{
+    background-color: lightsteelblue;
+}
+
+.navbarbutton {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    background-image:radial-gradient(circle, white 80%, lightgray 81%);
+    background-repeat:no-repeat;
+    background-size:200%;
+    background-position:50%;
+    transition: all .5s;
+    border: none;
+}
+
+
+    .navbarbutton:hover {
+        color: black;
+        text-decoration: none;
+        box-shadow: 0px 2px 5px 0px black;
+        background-size:100%;
+    }
+
+    .navbarbutton:active{ 
+    background-color: lightgray;
+    background-image:-webkit-radial-gradient(circle, lightgray 10%, transparent 11%);
+    background-image:-o-radial-gradient(circle, lightgray 10%, transparent 11%);
+    background-image:radial-gradient(circle, lightgray 10%, transparent 11%);
+    background-repeat:no-repeat;
+    -webkit-background-size:1000% 1000%;
+    background-size:1000%;
+ }
+ 
+ .navbarbutton-cur {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 1px 2px 0px gray;
+    background-image:radial-gradient(circle, #2196f3 80%, #0d87e9 81%);
+    background-repeat:no-repeat;
+    background-size:200%;
+    background-position:50%;
+    transition: all .5s;
+    border: none;
+}
+
+
+    .navbarbutton-cur:hover {
+        color: white;
+        text-decoration: none;
+        box-shadow: 0px 2px 5px 0px black;
+        background-size:100%;
+    }
+
+    .navbarbutton-cur:active{ 
+    background-color:#0d87e9;
+    background-image:-webkit-radial-gradient(circle, #0d87e9 10%, #2196f3 11%);
+    background-image:-o-radial-gradient(circle, #0d87e9 10%, #2196f3 11%);
+    background-image:radial-gradient(circle, #0d87e9 10%, #2196f3 11%);
+    background-repeat:no-repeat;
+    -webkit-background-size:1000% 1000%;
+    background-size:1000%;
+ }
+
 .slideshow_img {
     margin: auto;
     text-align: center;
@@ -35,17 +101,31 @@ body {
     text-decoration: none;
     border: 2px none #9E9E9E;
     border-radius: 0px;
+    color: white;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    background-image:radial-gradient(circle, #2196f3 80%, #0d87e9 81%);
+    background-repeat:no-repeat;
+    background-size:200%;
+    background-position:50%;
 }
 
 .mainbtn:hover {
-    box-shadow: 0 0px 3px 0px #607D8B;
+    box-shadow: 0 2px 3px 0px #607D8B;
+    background-size:100%;
+    color: white;
 
 }
 
 .mainbtn:active {
     box-shadow: 0 0px 6px 0px #607D8B;
+    background-color:#0d87e9;
+    background-image:-webkit-radial-gradient(circle, #0d87e9 10%, #2196f3 11%);
+    background-image:-o-radial-gradient(circle, #0d87e9 10%, #2196f3 11%);
+    background-image:radial-gradient(circle, #0d87e9 10%, #2196f3 11%);
+    background-repeat:no-repeat;
+    -webkit-background-size:1000% 1000%;
+    background-size:1000%;
 }
 
 
