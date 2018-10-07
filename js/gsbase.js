@@ -63,16 +63,15 @@ function setupSelectedBtn() {
     if (document.URL.endsWith('game-tlodb.html')) { document.getElementById("gamesdrop").className = "navbarbutton-cur dropdown-toggle dropdown-toggle-spli" }
     if (document.URL.endsWith('game-tlodbonline.html')) { document.getElementById("gamesdrop").className = "navbarbutton-cur dropdown-toggle dropdown-toggle-spli" }
 }
-function bigData1() {
-    document.getElementById("credits").innerHTML = " BIG DATA";
-    setTimeout(bigData2, 1000);
-}
-
-function bigData2() {
-    document.getElementById("credits").innerHTML = " By Jason Gleba, Drew Ciaramitaro, Evan Foster, and Sam Dubrule";
-    setTimeout(bigData1, 1000);
-}
 
 
+$(document).on('scroll', function (e) {
+    if ($(document).scrollTop() > 12) {
+        $('.navbar').addClass("scrolled");
+    }
+    else {
+        $('.navbar').removeClass("scrolled");
+    }
+});
 
 window.onload = begin();
