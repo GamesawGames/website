@@ -51,7 +51,8 @@ function createNav() {
            '<a href="games.html" id="games" class="navbarbutton">Games</a>'+
             '<button type="button" id="gamesdrop" class="navbarbutton dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>'+
             '<div class="dropdown-menu">'+
-                '<a class="dropdown-item navbarbutton" href="game-tlodb.html">The Legend of Diamondback</a>'+
+                '<a class="dropdown-item navbarbutton" href="game-tcc.html">LOTO: The Game</a>'+
+                '<a class="dropdown-item navbarbutton" href="game-lototss.html">LOTO: The Second Season</a>'+
             '</div>' +
         '</div>'
 }
@@ -60,8 +61,8 @@ function setupSelectedBtn() {
     if (document.URL.endsWith('index.html')) { document.getElementById("home").className = "navbarbutton-cur" }
     if (document.URL.endsWith('about.html')) { document.getElementById("about").className = "navbarbutton-cur" }
     if (document.URL.endsWith('games.html')) { document.getElementById("games").className = "navbarbutton-cur" }
-    if (document.URL.endsWith('game-tlodb.html')) { document.getElementById("gamesdrop").className = "navbarbutton-cur dropdown-toggle dropdown-toggle-spli" }
-    if (document.URL.endsWith('game-tlodbonline.html')) { document.getElementById("gamesdrop").className = "navbarbutton-cur dropdown-toggle dropdown-toggle-spli" }
+    if (document.URL.endsWith('game-tcc.html')) { document.getElementById("gamesdrop").className = "navbarbutton-cur dropdown-toggle dropdown-toggle-spli" }
+    if (document.URL.endsWith('game-lototss.html')) { document.getElementById("gamesdrop").className = "navbarbutton-cur dropdown-toggle dropdown-toggle-spli" }
 }
 
 
